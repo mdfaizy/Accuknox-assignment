@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+@layer utilities {
+    .clip-circle {
+      clip-path: polygon(50% 0%, 100% 0%, 100% 50%, 50% 50%, 50% 0%);
+      transform: rotate(calc(var(--value) * 3.6deg));
+    }
+  }
